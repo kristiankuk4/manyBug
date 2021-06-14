@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.FlowPane?>
+<!--<FlowPane-->
+<!--        xmlns:fx="http://javafx.com/fxml/1"-->
+<!--        xmlns="http://javafx.com/javafx/8"-->
+<!--        fx:controller="com.example.demo.controller.DemoController">-->
+<!--   <children>-->
+<!--      <Button fx:id="button" onAction="#click"  text="测试按钮" />-->
+<!--   </children>-->
+<!--</FlowPane>-->
+
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="org.kirovEyes.controller.DemoController">
+    <children>
+        <Pane prefHeight="324.0" prefWidth="398.0" GridPane.rowIndex="1">
+            <children>
+                <Button layoutX="28.0" layoutY="33.0" onAction="#finctionSayHello" text="上传文件" />
+                <Label fx:id="hello" layoutX="118.0" layoutY="38.0" text="请选择文件" />
+                <TextField fx:id="MD5" layoutX="28.0" layoutY="112.0" prefHeight="169.0" prefWidth="362.0" text="文件MD5值：" />
+                <Label layoutX="28.0" layoutY="78.0" text="文件MD5值为：" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>

@@ -1,0 +1,11 @@
+logging:
+  #日志存储地址
+  file: "logs/JavaFx-Spring.log"
+info:
+  name : "入门案例"
+
+server:
+  #端口号
+  port: 8086
+  servlet:
+    context-path: /demo
