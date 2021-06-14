@@ -9,3 +9,13 @@ server:
   port: 8086
   servlet:
     context-path: /demo
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+mqtt:
+  enable: true
+  host: tcp://localhost:1883
+  username:
+  pwd:
